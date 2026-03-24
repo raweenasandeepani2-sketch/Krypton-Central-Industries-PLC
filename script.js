@@ -91,7 +91,7 @@ document.getElementById('report-form').addEventListener('submit', async (e) => {
         // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         // !!! PASTE YOUR COPIED GOOGLE WEB APP URL RIGHT BELOW  !!!
         // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        const GOOGLE_URL = "https://script.google.com/macros/s/AKfycbx3_4uK3TwwUWi25tUQdSa3XBWuh_GjBaAWoUVQo3pKkAiYQCJPsKwjbEkIJdnhjFcI/exec"; 
+        const GOOGLE_URL = "https://script.google.com/macros/s/AKfycbzgvbexc91OKQWODbz9rHEXCj7RqUC8AJAeJmnrlY-v4W-FTfmxxq8jMJr7Kgscrikg/exec"; 
 
         // Send to Google Sheets (using no-cors to bypass strict browser blocking)
         await fetch(GOOGLE_URL, {
